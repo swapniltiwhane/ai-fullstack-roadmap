@@ -1,0 +1,12 @@
+name = input("Enter name: ")
+company = input("Enter company: ")
+experience = input("Enter experience: ")
+technology = input("Enter technology: ")
+
+print("==========================\n",end="\n")
+print("Employee Profile \n")
+print(f"Name       : {name}")
+print(f"Company    : {company}")
+print(f"Experience : {experience}")
+print(f"Technology : {technology}\n")
+print("==========================")
