@@ -1,4 +1,12 @@
+# iterarte through dictonary
+my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+total = 0
+for key, value in my_dict.items():
+    total += 1
+    print(f"{key}: {value}")
+print(f"Total number of items in the dictionary: {total}")
 # multiplication table
+
 table_for = int(input("Enter a number to print its multiplication table: "))
 for i in range(1, 11):
     print(f"{table_for} x {i} = {table_for * i} \n")
